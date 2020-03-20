@@ -1,0 +1,174 @@
+/* Add a grey background color with some padding */
+body{
+    font-family: Arial;
+    padding: 20px;
+    
+}
+
+/* Header/Blog Title */
+.header{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-color:#c3829e;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 40%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    padding-left: 0;
+  }
+  
+  /* Fake image */
+  .fakeimg1 {
+    background-image: url(img/tokyo-japan-wallpaper.jpg);
+    background-size: cover;
+    background-color: #aaa;
+    width: 95%;
+    padding: 20px;
+  }
+
+  .fakeimg2{
+    background-image: url(img/tokyo-skytree.jpg);
+    background-size: cover;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .fakeimg3{
+    background-image: url(img/Tokyo-Tower.jpg);
+    background-size: cover;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .fakeimg4{
+    background-image: url(img/Meiji-jingu-shrine.jpg);
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+  }
+
+  .fakeimg5{
+    background-image: url(img/takeshita-street.jpg);
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+  }
+
+  .fakeimg6{
+    background-image: url(img/mount-takao.jpg);
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+  }
+
+  
+
+  .fakeimg13{
+    background-image: url(img/japan-central-market.jpg);
+    background-size: cover;
+    width: 85%;
+    padding: 15px;
+  }
+
+  .fakeimg14{
+    background-image: url(img/palace.jpg);
+    background-size: cover;
+    width: 85%;
+    padding: 15px;
+  }
+
+  .fakeimg15{
+    background-image: url(img/japan-night-mode.jpg);
+    background-size: cover;
+    width: 85%;
+    padding: 15px;
+  }
+  
+  html, body{
+    background: url(img/japan.jpg) no-repeat center center fixed;
+  }
+  
+  /* Add a card effect for articles */
+  .card1 {
+     background-color:#f9aab8;
+     padding: 20px;
+     margin-top: 20px;
+     font-size: 15.9px;
+     width: 160%;
+  }
+ .card2 {
+    background-color:#f9aab8;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    width: 160%;
+ }
+ 
+.card3 {
+  background-color:#f9aab8;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  width: 100%;
+  float: right;
+}
+
+.card6{
+  background-color: #f9aab8;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  width: 160%;
+  float: left;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 10px;
+      font-size: 15px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .card1, .card2, .card3, .card6{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    body,html{
+      overflow-x: hidden;
+    }
+    .row{
+      display: block;
+    }
+  }
+ 
