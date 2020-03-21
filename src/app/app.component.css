@@ -29,7 +29,7 @@ body{
   
   /* Fake image */
   .fakeimg1 {
-    background-image: url(img/tokyo-japan-wallpaper.jpg);
+    background-image: url(assets/img/tokyo-japan-wallpaper.jpg);
     background-size: cover;
     background-color: #aaa;
     width: 95%;
@@ -37,65 +37,43 @@ body{
   }
 
   .fakeimg2{
-    background-image: url(img/tokyo-skytree.jpg);
+    background-image: url(assets/img/tokyo-skytree.jpg);
     background-size: cover;
     width: 60%;
     padding: 20px;
   }
 
   .fakeimg3{
-    background-image: url(img/Tokyo-Tower.jpg);
+    background-image: url(assets/img/Tokyo-Tower.jpg);
     background-size: cover;
     width: 60%;
     padding: 20px;
   }
 
   .fakeimg4{
-    background-image: url(img/Meiji-jingu-shrine.jpg);
+    background-image: url(assets/img/Meiji-jingu-shrine.jpg);
     background-size: cover;
     width: 50%;
     padding: 20px;
   }
 
   .fakeimg5{
-    background-image: url(img/takeshita-street.jpg);
+    background-image: url(assets/img/takeshita-street.jpg);
     background-size: cover;
     width: 50%;
     padding: 20px;
   }
 
   .fakeimg6{
-    background-image: url(img/mount-takao.jpg);
+    background-image: url(assets/img/mount-takao.jpg);
     background-size: cover;
     width: 50%;
     padding: 20px;
   }
 
   
-
-  .fakeimg13{
-    background-image: url(img/japan-central-market.jpg);
-    background-size: cover;
-    width: 85%;
-    padding: 15px;
-  }
-
-  .fakeimg14{
-    background-image: url(img/palace.jpg);
-    background-size: cover;
-    width: 85%;
-    padding: 15px;
-  }
-
-  .fakeimg15{
-    background-image: url(img/japan-night-mode.jpg);
-    background-size: cover;
-    width: 85%;
-    padding: 15px;
-  }
-  
   html, body{
-    background: url(img/japan.jpg) no-repeat center center fixed;
+    background: url(assets/img/japan.jpg) no-repeat center center fixed;
   }
   
   /* Add a card effect for articles */
@@ -146,6 +124,7 @@ body{
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    position: bottom;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
